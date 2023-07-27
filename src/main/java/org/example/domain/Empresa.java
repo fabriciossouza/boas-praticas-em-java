@@ -19,8 +19,4 @@ public abstract class Empresa {
         return totalFaturamento;
     }
 
-
-    public abstract double calcularLimiteAprovado();
-
-
 }

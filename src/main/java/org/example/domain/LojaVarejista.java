@@ -1,6 +1,6 @@
 package org.example.domain;
 
-public class LojaVarejista extends Empresa {
+public class LojaVarejista extends EmpresaFinanciavel {
 
     private static final double PERCENTUAL_FATURAMENTO_LIMITE_CREDITO = 0.2;
     private static final double PERCENTUAL_VALOR_ESTOQUE_LIMITE_CREDITO = 0.5;

@@ -1,7 +1,7 @@
 package org.example.domain;
 
 
-public class Industria extends Empresa {
+public class Industria extends EmpresaFinanciavel {
 
     private static final double PERCENTUAL_FATURAMENTO_LIMITE_CREDITO = 0.5;
     private static final double TAXA_ACRESCIMO_LIMITE_INDUSTRIA_SUSTENTAVEL = 1.2;
