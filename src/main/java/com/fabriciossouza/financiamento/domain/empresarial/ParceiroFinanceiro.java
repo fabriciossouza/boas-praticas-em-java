@@ -1,4 +1,4 @@
-package org.example.domain;
+package com.fabriciossouza.financiamento.domain.empresarial;
 
 public class ParceiroFinanceiro extends Empresa {
 

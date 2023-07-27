@@ -1,9 +1,9 @@
-package org.example.domain;
+package com.fabriciossouza.financiamento.domain.empresarial;
 
 public abstract class Empresa {
 
-
     protected String razaoSocial;
+    protected String cnpj;
     protected double totalFaturamento;
 
     public Empresa(String razaoSocial, double totalFaturamento) {

@@ -1,6 +1,8 @@
-package org.example.domain;
+package com.fabriciossouza.financiamento.domain.empresarial;
 
-public class LojaVarejista extends EmpresaFinanciavel {
+import com.fabriciossouza.financiamento.domain.ClientFinanciavel;
+
+public class LojaVarejista extends Empresa implements ClientFinanciavel {
 
     private static final double PERCENTUAL_FATURAMENTO_LIMITE_CREDITO = 0.2;
     private static final double PERCENTUAL_VALOR_ESTOQUE_LIMITE_CREDITO = 0.5;
