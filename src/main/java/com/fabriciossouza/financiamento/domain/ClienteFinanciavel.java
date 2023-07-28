@@ -1,6 +1,6 @@
 package com.fabriciossouza.financiamento.domain;
 
-public interface ClientFinanciavel {
+public interface ClienteFinanciavel {
 
     double calcularLimiteAprovado();
 

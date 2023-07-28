@@ -1,8 +1,8 @@
 package com.fabriciossouza.financiamento.domain.pessoal;
 
-import com.fabriciossouza.financiamento.domain.ClientFinanciavel;
+import com.fabriciossouza.financiamento.domain.ClienteFinanciavel;
 
-public class Funcionario extends Pessoa implements ClientFinanciavel {
+public class Funcionario extends Pessoa implements ClienteFinanciavel {
 
     private static final int QUANTIDADE_SALARIOS_LIMITE_CREDITO = 5;
 
