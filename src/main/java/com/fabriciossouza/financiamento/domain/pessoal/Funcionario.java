@@ -1,8 +1,9 @@
 package com.fabriciossouza.financiamento.domain.pessoal;
 
+import com.fabriciossouza.financiamento.domain.ClienteBonificacao;
 import com.fabriciossouza.financiamento.domain.ClienteFinanciavel;
 
-public class Funcionario extends Pessoa implements ClienteFinanciavel {
+public class Funcionario extends Pessoa implements ClienteFinanciavel, ClienteBonificacao {
 
     private static final int QUANTIDADE_SALARIOS_LIMITE_CREDITO = 5;
 
@@ -24,5 +25,10 @@ public class Funcionario extends Pessoa implements ClienteFinanciavel {
     @Override
     public double calcularLimiteAprovado() {
         return getSalarioMensal() * QUANTIDADE_SALARIOS_LIMITE_CREDITO;
+    }
+
+    @Override
+    public double calcularBonus(double percentual) {
+        return (this.getSalarioMensal() * percentual / 100) * 2;
     }
 }
