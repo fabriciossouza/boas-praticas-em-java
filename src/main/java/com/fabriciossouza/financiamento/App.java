@@ -6,7 +6,7 @@ import com.fabriciossouza.financiamento.domain.empresarial.LojaVarejista;
 import com.fabriciossouza.financiamento.domain.pessoal.Funcionario;
 import com.fabriciossouza.financiamento.service.ServicoFinanciamento;
 
-public class Main {
+public class App {
 
     public static void main(String[] args) {
 
